@@ -4,3 +4,5 @@ data/normal1
 *.log
 __pycache__
 .idea
+!usad/input/attack0.csv
+!usad/input/normal0.csv
