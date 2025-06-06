@@ -2,3 +2,5 @@
 data/attack
 data/normal1
 *.log
+__pycache__
+.idea
