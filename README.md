@@ -55,16 +55,18 @@
 #### 编写并运行 [集群指标预处理脚本](./data/data_csv_1.py) 将.txt 内的数据处理为 .csv文件
 #### 编写并运行 [集群状态标记脚本](./data/data_label_2.py) 标记当前数据为 `Normal`
 #### 编写并运行 [数据清洗脚本](./data/data_clean_3.py) 清洗无关数据,运算并保留以下数据
-`
-other_cols = ['window_start', 'window_end', 'Normal/Attack']
-load_cols = [col for col in df.columns if 'node_load' in col]
-keep_cols = other_cols + load_cols + [
+
+`other_cols = ['window_start', 'window_end', 'Normal/Attack']`
+
+`load_cols = [col for col in df.columns if 'node_load' in col]`
+
+`keep_cols = other_cols + load_cols + [
     'cpu_util', 'mem_util',
     'disk_read_mbps', 'disk_write_mbps',
     'net_rx_mbps', 'net_tx_mbps',
     'fs_util'
-]
-`
+]`
+
 #### 获得 `normal0.csv`
 ### 异常状态数据生成
 #### 编写 [故障脚本](./chaosMesh/pod-kill.yaml) 使得随机向 `final`(`Online-Boutique` 运行的位置) 命名空间的 `pod` 注入故障
