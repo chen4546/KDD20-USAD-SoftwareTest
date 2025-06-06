@@ -107,6 +107,6 @@ keep_cols = other_cols + load_cols + [
 [模型文件](./usad/model.pth)
 ### [usad](./usad/)目录下的 [load_data.py](./usad/load_data.py) , [train.py](./usad/train.py) , [test.py](./usad/test.py) 文件为 [USAD.ipynb](./usad/USAD.ipynb) 拆分修改而来
 
-
+## [本站地址](https://github.com/chen4546/KDD20-USAD-SoftwareTest.git)
 
 
