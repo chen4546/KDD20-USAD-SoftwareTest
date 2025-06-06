@@ -97,9 +97,11 @@ keep_cols = other_cols + load_cols + [
 ### `jupyter notebook` 下运行 [USAD.ipynb](./usad/USAD.ipynb) 获得以下结果
 
 `损失率变化图像`:
+
 ![损失率图像](./usad/result_train.png)
 
-`准确率变化图像`
+`准确率变化图像`:
+
 ![准确率图像](./usad/result_test.png)
 
 [模型文件](./usad/model.pth)
