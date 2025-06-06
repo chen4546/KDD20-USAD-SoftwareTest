@@ -95,10 +95,13 @@ keep_cols = other_cols + load_cols + [
 
 ### 修改 [USAD.ipynb](./usad/USAD.ipynb) Attack数据为 [attack0.csv](./usad/input/attack0.csv) , Normal数据为 [normal0.csv](./usad/input/normal0.csv)
 ### `jupyter notebook` 下运行 [USAD.ipynb](./usad/USAD.ipynb) 获得以下结果
+
 `损失率变化图像`:
 ![损失率图像](./usad/result_train.png)
+
 `准确率变化图像`
 ![准确率图像](./usad/result_test.png)
+
 [模型文件](./usad/model.pth)
 ### [usad](./usad/)目录下的 [数据加载](./usad/load_data.py) , [训练](./usad/train.py) , [测试](./usad/test.py) 文件为 [USAD.ipynb](./usad/USAD.ipynb) 拆分修改而来
 
