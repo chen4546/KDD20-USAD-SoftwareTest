@@ -1,0 +1,4 @@
+*.csv
+data/attack
+data/normal1
+*.log
