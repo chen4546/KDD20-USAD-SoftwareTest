@@ -15,38 +15,58 @@
 ### `docker`部署 [Online-Boutique](./Online-Boutique/)
 
 创建命名空间 final
+
 ![创建命名空间 `final`](./docs/assets/img1.png)
 
 在 final 命名空间下创建服务节点
+
 ![在 final 命名空间下创建服务节点](./docs/assets/img2.png)
 
 所有节点正常运行
+
 ![所有节点正常运行](./docs/assets/img3.png)
 
 运行服务
+
 ![运行服务](./docs/assets/img4.png)
 
 服务网页正常
+
 ![服务网页正常](./docs/assets/img5.png)
 ### `docker`部署`Chaos-Mesh`
 
 运行 `kubectl port-forward -n chaos-testing svc/chaos-dashboard 2333:2333`
+
 ![部署chaosmesh并运行服务](./docs/assets/img6.png)
+
 按要求编写并运行 [rbac.yaml](./chaosMesh/rbac.yaml) 并生成 `token`
+
 ![token](./docs/assets/img7.png)
 
 绑定 `token`
+
 ![绑定](./docs/assets/img8.png)
+
 ### [Selenium](./Online-Boutique_test/selenium_test.py) 测试微服务
+
 [selenium 测试录屏](./docs/assets/Selenium_test.mp4)
+
 ### [Jmeter](./Online-Boutique_test/test.jmx) 测试微服务
+
 [测试报告](./Online-Boutique_test/report-output/index.html)
+
 ![report](./docs/assets/img13.png)
+
 ### `docker`部署 [Prometheus + grafana](./manifests-monitoring/)
+
 ![prometheus](./docs/assets/img14.png)
+
 ![grafana](./docs/assets/img15.png)
+
 #### 运行 `kubectl port-forward pod/node-exporter-4z6zr 9100:9100 -n monitoring` 暴露 `node-exporte` 的 `9100` 端口到集群外部
+
 ![9100](./docs/assets/img16.png)
+
 ![metrics](./docs/assets/img17.png)
 
 ### 正常状态数据生成
