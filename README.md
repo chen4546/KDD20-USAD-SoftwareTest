@@ -105,7 +105,7 @@ keep_cols = other_cols + load_cols + [
 ![准确率图像](./usad/result_test.png)
 
 [模型文件](./usad/model.pth)
-### [usad](./usad/)目录下的 [数据加载](./usad/load_data.py) , [训练](./usad/train.py) , [测试](./usad/test.py) 文件为 [USAD.ipynb](./usad/USAD.ipynb) 拆分修改而来
+### [usad](./usad/)目录下的 [load_data.py](./usad/load_data.py) , [train.py](./usad/train.py) , [test.py](./usad/test.py) 文件为 [USAD.ipynb](./usad/USAD.ipynb) 拆分修改而来
 
 
 
