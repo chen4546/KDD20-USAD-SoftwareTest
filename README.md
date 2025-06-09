@@ -5,6 +5,18 @@
  `张婧怡 2213554`
  `蔚佳明 2210727`
  `陈雨佳 2210849`
+## 演示内容
+
+演示ppt [软件测试与维护大作业展示.pptx](./docs/软件测试与维护大作业展示.pptx)
+
+大作业报告 [项目报告]
+
+selenium测试演示 [selenuum web 演示视频](./docs/assets/Selenium_web_test.mp4)
+
+jmeter测试演示 [jmeter 测试报告](./Online-Boutique_test/report-output/index.html)
+
+![jmeter test](./docs/assets/img13.png)
+
 ## 选择论文 
 [Online-Boutique/Multivariate Time Serier AD/KDD20-USAD](./docs/KDD20-USAD.pdf)
 
@@ -49,7 +61,8 @@
 
 ### [Selenium](./Online-Boutique_test/selenium_test.py) 测试微服务
 
-[selenium 测试录屏](./docs/assets/Selenium_test.mp4)
+[selenium 测试录屏 1](./docs/assets/Selenium_test.mp4)
+[selenium 测试录屏 2](./docs/assets/Selenium_web_test.mp4)
 
 ### [Jmeter](./Online-Boutique_test/test.jmx) 测试微服务
 
