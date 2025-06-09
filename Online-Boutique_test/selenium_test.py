@@ -6,7 +6,7 @@ import time
 
 # 替换为你的 EdgeDriver 路径
 EDGE_DRIVER_PATH = r"D:\SoftwareTest Tools\driver\edgedriver_win64\msedgedriver.exe"
-URL = "http://localhost:64862/"
+URL = "http://localhost:49584/"
 
 # 模拟手机屏幕尺寸
 MOBILE_WIDTH = 375

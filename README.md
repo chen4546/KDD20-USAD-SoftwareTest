@@ -7,11 +7,11 @@
  `陈雨佳 2210849`
 ## 演示内容
 
-演示ppt [软件测试与维护大作业展示.pptx](./docs/软件测试与维护大作业展示.pptx)
+大作业演示ppt [软件测试与维护大作业展示.pptx](./docs/软件测试与维护大作业展示.pptx)
 
-大作业报告 [项目报告]
+大作业报告 [项目报告](./docs/软件测试与维护大作业报告.pdf)
 
-selenium测试演示 [selenuum web 演示视频](./docs/assets/Selenium_web_test.mp4)
+selenium测试演示 [selenuum 演示视频](./docs/assets/Selenium_test.mp4)
 
 jmeter测试演示 [jmeter 测试报告](./Online-Boutique_test/report-output/index.html)
 
